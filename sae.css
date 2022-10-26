@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    color:white;
 }
 
 #fond {
@@ -111,6 +112,20 @@ nav>ul li:hover .sous {
     overflow: scroll;
     height: 100vh;
 }
+/*Début des classes propres a chaque page*/
+/*Classe scolaire.html*/
+#college{
+
+}
+
+#lycee{
+
+}
+
+#etude{
+
+}
+
 
 /*    font-family: 'Mingzat', sans-serif;
 
