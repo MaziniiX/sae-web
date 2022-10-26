@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poiret+One&family=Sulphur+Point&display=swap');
 
+body{
+    margin:0;
+}
+
 html{
     background: no-repeat url("galaxy.jpg");
 }
 
+#img{
+
+}
+
+#fond{
+    height:100vh;
+    width:100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-10;
+}
 .menu{
     background-color: rgb(65, 67, 90);
 }
@@ -94,8 +110,7 @@ nav > ul li:hover .sous{
 }
 
 .conteneur{
-  margin: 50px 20px;
-  height: 1500px;
+
 }
 
 /*    font-family: 'Mingzat', sans-serif;
