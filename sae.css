@@ -1,40 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poiret+One&family=Sulphur+Point&display=swap');
 
-body{
-    margin:0;
+body {
+    margin: 0;
 }
 
-#fond{
-    height:100vh;
-    width:100vw;
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:-10;
+#fond {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
 }
-.menu{
+
+.menu {
     background-color: rgb(65, 67, 90);
 }
 
-.top{
-    display:inline;
-    vertical-align:100%;
+.top {
+    display: inline;
+    vertical-align: 100%;
     color: white;
     font-size: larger;
     font-family: 'Sulphur Point', sans-serif;
 }
 
-.logo{
-    width:5%;
+.logo {
+    width: 5%;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Avenir, sans-serif;
 }
 
-nav{
+nav {
     width: 100%;
     margin: 0 auto;
     background-color: white;
@@ -42,24 +43,24 @@ nav{
     top: 0px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
 }
 
-nav ul li{
+nav ul li {
     float: left;
     width: 25%;
     text-align: center;
     position: relative;
 }
 
-nav ul::after{
+nav ul::after {
     content: "";
     display: table;
     clear: both;
 }
 
-nav a{
+nav a {
     display: block;
     text-decoration: none;
     color: black;
@@ -67,12 +68,12 @@ nav a{
     padding: 10px 0px;
 }
 
-nav a:hover{
+nav a:hover {
     color: rgb(14, 10, 53);
     border-bottom: 2px solid rgb(38, 0, 255);
 }
 
-.sous{
+.sous {
     display: none;
     box-shadow: 0px 1px 2px #CCC;
     background-color: white;
@@ -80,30 +81,35 @@ nav a:hover{
     width: 100%;
     z-index: 1000;
 }
-nav > ul li:hover .sous{
+
+nav>ul li:hover .sous {
     display: block;
 }
-.sous li{
+
+.sous li {
     float: none;
     width: 100%;
     text-align: left;
 }
-.sous a{
+
+.sous a {
     padding: 10px;
     border-bottom: none;
 }
-.sous a:hover{
+
+.sous a:hover {
     border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
+    background-color: RGBa(200, 200, 200, 0.1);
 }
-.deroulant > a::after{
-    content:" ▼";
+
+.deroulant>a::after {
+    content: " ▼";
     font-size: 12px;
 }
 
-#conteneur{
-    overflow:scroll;
-    height : 100vh;
+#conteneur {
+    overflow: scroll;
+    height: 100vh;
 }
 
 /*    font-family: 'Mingzat', sans-serif;
