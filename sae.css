@@ -19,15 +19,17 @@ body {
 }
 
 .top {
-    display: inline;
-    vertical-align: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left:10px;
     color: white;
-    font-size: larger;
+    font-size:150%;
     font-family: 'Sulphur Point', sans-serif;
 }
 
 .logo {
     width: 5%;
+    vertical-align: middle;
 }
 
 * {
