@@ -32,6 +32,20 @@ body {
     vertical-align: middle;
 }
 
+.menu>a img{
+    border-radius: 8px;
+    width:3%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu>a img:hover{
+    width:3.5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -128,7 +142,17 @@ nav>ul li:hover .sous {
 
 }
 
+#dev{
 
+}
+
+#cyber{
+
+}
+
+#jeux{
+
+}
 /*    font-family: 'Mingzat', sans-serif;
 
     font-family: 'Poiret One', cursive;
