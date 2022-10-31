@@ -16,6 +16,7 @@ body {
 
 .menu {
     background-color: rgb(65, 67, 90);
+    width:100%;
 }
 
 .top {
@@ -25,18 +26,21 @@ body {
     color: white;
     font-size:150%;
     font-family: 'Sulphur Point', sans-serif;
+    padding-right:73%;
 }
 
 .logo {
+    display: inline-block;
     width: 5%;
     vertical-align: middle;
 }
 
 .menu>a img{
+    display: inline-block;
     border-radius: 8px;
     width:3%;
-    display: inline-block;
     vertical-align: middle;
+    margin-right: 5px;
 }
 
 .menu>a img:hover{
