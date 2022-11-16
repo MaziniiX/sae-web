@@ -17,37 +17,31 @@ body {
 .menu {
     background-color: rgb(65, 67, 90);
     width:100%;
+    display:flex;
 }
 
 .top {
-    display: inline-block;
-    vertical-align: middle;
-    padding-left:10px;
     color: white;
     font-size:150%;
     font-family: 'Sulphur Point', sans-serif;
-    padding-right:73%;
 }
 
 .logo {
-    display: inline-block;
     width: 5%;
-    vertical-align: middle;
 }
 
 .menu>a img{
-    display: inline-block;
     border-radius: 8px;
-    width:3%;
-    vertical-align: middle;
-    margin-right: 5px;
+    min-height: 0;
+    min-width: 0;
 }
 
-.menu>a img:hover{
-    width:3.5%;
+.menu>a>img:hover{
     border-style: solid;
     border-width: 2px;
     border-color: white;
+    min-height: 0;
+    min-width: 0;
 }
 
 * {
@@ -70,7 +64,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    width: 25%;
+    width: 33%;
     text-align: center;
     position: relative;
 }
@@ -145,7 +139,7 @@ nav>ul li:hover .sous {
 #etude{
 
 }
-
+/*Classe interet.html*/
 #dev{
 
 }
