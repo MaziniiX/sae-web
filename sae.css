@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poiret+One&family=Sulphur+Point&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poiret+One&family=Crimson+Text:ital@1&family=Sulphur+Point&display=swap');
 
 body {
     margin: 0;
     color:white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
 }
 
 #fond {
@@ -13,57 +19,57 @@ body {
     left: 0;
     z-index: -10;
 }
-
-.menu {
+                                                /* Barre de présentation + choix de langue */
+.menu {                                         /* Définition du conteneur */
     background-color: rgb(65, 67, 90);
     width:100%;
     display:flex;
     flex-wrap: row nowrap;
 }
 
-.top {
-    color: white;
-    font-size:180%;
+.menu>h6 {                                       /* "Justin CHALEARD" */
+    color: white;                             
+    font-size:220%;                             
     font-family: 'Sulphur Point', sans-serif;
+    align-self:center;                          /* Aligner l'élément au milieu de l'axe verticale */
+}
+
+.menu>p{
+    color: white;                             
+    font-size:220%;                             
+    font-family: 'Crimson Text', serif;
     align-self:center;
-    margin-right: auto;
+    margin-left: 20%;
+    margin-right: auto;                         /* Plaquer les boutons de langue a droite de la barre */
 }
 
-.logo {
-    width: 4%;
-    margin:0.5% 1% 0.5% 0.5%;
+.menu>img {                                     /* Image de présentation */
+    width: 4%;                                  
+    margin:0.5% 1% 0.5% 0.5%;                   
 }
 
-.menu>a{
-    min-width:0;
-    min-height:0;
-    align-self:center;
-    width:3%;
-    margin-right: 1%;
+.menu>a{                                        /* Bouton de langue */
+    align-self:center;                          /* Aligner l'élément au milieu de l'axe verticale */
+    width:3%;                                   /*Définition de la largeur occuper par l'objet dans la barre menu */
+    margin-right: 1%;                           
 }
 
-.menu>a img{
+.menu>a img{                                    /* Image des boutons */
     border-radius: 8px;
     width:100%
 }
 
-.menu>a>img:hover{
+.menu>a>img:hover{                              /* Modification de l'affichage de l'image au survol */
     border-style: solid;
-    border-width: 2px;
+    border-width: 4px;
     border-color: white;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: Avenir, sans-serif;
-}
-
-nav {
+nav {                                           /* Barre de navigation principale */
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    position: sticky;
+    position: sticky;                           /* Faire apparaitre le nav lors du scroll */
     top: 0px;
 }
 
@@ -90,11 +96,13 @@ nav a {
     color: black;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 150%;
 }
 
 nav a:hover {
-    color: rgb(14, 10, 53);
-    border-bottom: 2px solid rgb(38, 0, 255);
+    color: rgb(69, 128, 216);
+    border-bottom: 4px solid rgb(38, 0, 255);
 }
 
 .sous {
@@ -135,18 +143,169 @@ nav>ul li:hover .sous {
     overflow: scroll;
     height: 100vh;
 }
-/*Début des classes propres a chaque page*/
-/*Classe scolaire.html*/
-#college{
 
+
+/*Début des classes propres à chaque page*/
+/*Classe scolaire.html*/
+#brevet{
+    width:30%;
+    float:right;
+    clear:both;
+    margin:3% 10% 0% 3%;
+}
+
+#college{
+    display:flex;
+    flex-flow: row wrap;
+    width:45%;
+    margin:3% 0 0 3%;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding:1%;
+}
+
+#college>h1{
+    margin:auto;
+    margin-bottom: 1%;
+    padding: 4px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:white;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 200%;
+}
+
+#bac{
+    width:30%;
+    float:left;
+    clear:both;
+    margin:5% 3% 0% 10%;
+}
+
+#college>#content1{
+    background-color: rgb(4, 28, 54);
+    padding: 10px;
+}
+
+#college>#content1>p{
+    font-family: 'Mingzat', sans-serif;
+    font-size: larger;
+    width:60%
+}
+
+#college>#content1>img:first-of-type{
+    width:33%;
+    float:right;
+    margin:0 0% 5% 1%;
+    border-style: solid;
+    border-color:white;
+}
+
+#college>#content1>img:last-of-type{
+    width:40%;
+    float:right;
+    clear:both;
+    margin-top:-3%;
+    margin-right:;
+    border-style: solid;
+    border-color:white;
 }
 
 #lycee{
-
+    float:right;
+    display:flex;
+    flex-flow: row wrap;
+    width:45%;
+    margin:3% 3% 0 0;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding:1%;
 }
 
-#etude{
+#lycee>h1{
+    margin:auto;
+    margin-bottom: 1%;
+    padding: 4px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:white;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 200%;
+}
 
+#lycee>#content2{
+    background-color: rgb(4, 28, 54);
+    padding: 10px;
+}
+
+#lycee>#content2>p{
+    font-family: 'Mingzat', sans-serif;
+    font-size: larger;
+    width:60%
+}
+
+#lycee>#content2>img:first-of-type{
+    width:33%;
+    float:right;
+    clear:both;
+    margin:0 0% 5% 1%;
+    border-style: solid;
+    border-color:white;
+}
+
+#lycee>#content2>img:last-of-type{
+    width:35%;
+    float:left;
+    clear:both;
+    margin-top:-2%;
+    margin-right:;
+    border-style: solid;
+    border-color:white;
+}
+#lycee>#content2>p:last-of-type{
+    float:right;
+}
+#etude{
+    float:left;
+    clear: right;
+    display:flex;
+    flex-flow: row wrap;
+    width:45%;
+    margin:3% 0 0 3%;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding:1%;
+}
+
+#etude>h1{
+    margin:auto;
+    margin-bottom: 1%;
+    padding: 4px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:white;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 200%;
+}
+
+#etude>div{
+    background-color: rgb(4, 28, 54);
+    padding: 10px;
+}
+
+#etude>div>p{
+    font-family: 'Mingzat', sans-serif;
+    font-size: larger;
+    width:60%;
+    margin-top:5%;
+}
+
+#etude>div>img{
+    width:33%;
+    float:right;
+    margin:0 0% 0% 1%;
+    border-style: solid;
+    border-color:white;
 }
 /*Classe interet.html*/
 #dev{
