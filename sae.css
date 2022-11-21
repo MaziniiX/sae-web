@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    color:white;
+    color:#ffffff;
 }
 
 * {
@@ -19,57 +19,57 @@ body {
     left: 0;
     z-index: -10;
 }
-                                                /* Barre de présentation + choix de langue */
-.menu {                                         /* Définition du conteneur */
+                                                
+.menu {                                         
     background-color: rgb(65, 67, 90);
     width:100%;
     display:flex;
     flex-wrap: row nowrap;
 }
 
-.menu>h6 {                                       /* "Justin CHALEARD" */
-    color: white;                             
-    font-size:220%;                             
+.menu>h6 { 
+    color: #ffffff;
+    font-size:220%;
     font-family: 'Sulphur Point', sans-serif;
-    align-self:center;                          /* Aligner l'élément au milieu de l'axe verticale */
+    align-self:center;
 }
 
 .menu>p{
-    color: white;                             
-    font-size:220%;                             
+    color: #ffffff; 
+    font-size:220%;
     font-family: 'Crimson Text', serif;
     align-self:center;
     margin-left: 20%;
-    margin-right: auto;                         /* Plaquer les boutons de langue a droite de la barre */
+    margin-right: auto;                         
 }
 
-.menu>img {                                     /* Image de présentation */
-    width: 4%;                                  
-    margin:0.5% 1% 0.5% 0.5%;                   
+.menu>img {
+    width: 4%; 
+    margin:0.5% 1% 0.5% 0.5%;
 }
 
-.menu>a{                                        /* Bouton de langue */
-    align-self:center;                          /* Aligner l'élément au milieu de l'axe verticale */
-    width:3%;                                   /*Définition de la largeur occuper par l'objet dans la barre menu */
-    margin-right: 1%;                           
+.menu>a{
+    align-self:center;
+    width:3%;
+    margin-right: 1%; 
 }
 
-.menu>a img{                                    /* Image des boutons */
+.menu>a img{
     border-radius: 8px;
     width:100%
 }
 
-.menu>a>img:hover{                              /* Modification de l'affichage de l'image au survol */
+.menu>a>img:hover{
     border-style: solid;
     border-width: 4px;
-    border-color: white;
+    border-color: #ffffff;
 }
 
-nav {                                           /* Barre de navigation principale */
+nav {
     width: 100%;
     margin: 0 auto;
-    background-color: white;
-    position: sticky;                           /* Faire apparaitre le nav lors du scroll */
+    background-color: #ffffff;
+    position: sticky;
     top: 0px;
 }
 
@@ -108,7 +108,7 @@ nav a:hover {
 .sous {
     display: none;
     box-shadow: 0px 1px 2px #CCC;
-    background-color: white;
+    background-color: #ffffff;
     position: absolute;
     width: 100%;
     z-index: 1000;
@@ -158,7 +158,7 @@ nav>ul li:hover .sous {
     display:flex;
     flex-flow: row wrap;
     width:45%;
-    margin:3% 0 0 3%;
+    margin:3% 0 3% 3%;
     background-color: rgb(4, 38, 75);
     border-radius: 3%;
     padding:1%;
@@ -170,7 +170,7 @@ nav>ul li:hover .sous {
     padding: 4px;
     border-style: solid;
     border-width: 5px;
-    border-color:white;
+    border-color:#ffffff;
     font-family: 'Sulphur Point', sans-serif;
     font-size: 200%;
 }
@@ -198,7 +198,7 @@ nav>ul li:hover .sous {
     float:right;
     margin:0 0% 5% 1%;
     border-style: solid;
-    border-color:white;
+    border-color:#ffffff;
 }
 
 #college>#content1>img:last-of-type{
@@ -208,7 +208,7 @@ nav>ul li:hover .sous {
     margin-top:-3%;
     margin-right:;
     border-style: solid;
-    border-color:white;
+    border-color:#ffffff;
 }
 
 #lycee{
@@ -216,7 +216,7 @@ nav>ul li:hover .sous {
     display:flex;
     flex-flow: row wrap;
     width:45%;
-    margin:3% 3% 0 0;
+    margin:3% 3% 3% 0;
     background-color: rgb(4, 38, 75);
     border-radius: 3%;
     padding:1%;
@@ -228,7 +228,7 @@ nav>ul li:hover .sous {
     padding: 4px;
     border-style: solid;
     border-width: 5px;
-    border-color:white;
+    border-color:#ffffff;
     font-family: 'Sulphur Point', sans-serif;
     font-size: 200%;
 }
@@ -250,7 +250,7 @@ nav>ul li:hover .sous {
     clear:both;
     margin:0 0% 5% 1%;
     border-style: solid;
-    border-color:white;
+    border-color:#ffffff;
 }
 
 #lycee>#content2>img:last-of-type{
@@ -260,7 +260,7 @@ nav>ul li:hover .sous {
     margin-top:-2%;
     margin-right:;
     border-style: solid;
-    border-color:white;
+    border-color:#ffffff;
 }
 #lycee>#content2>p:last-of-type{
     float:right;
@@ -271,7 +271,7 @@ nav>ul li:hover .sous {
     display:flex;
     flex-flow: row wrap;
     width:45%;
-    margin:3% 0 0 3%;
+    margin:3% 0 3% 3%;
     background-color: rgb(4, 38, 75);
     border-radius: 3%;
     padding:1%;
@@ -283,7 +283,7 @@ nav>ul li:hover .sous {
     padding: 4px;
     border-style: solid;
     border-width: 5px;
-    border-color:white;
+    border-color:#ffffff;
     font-family: 'Sulphur Point', sans-serif;
     font-size: 200%;
 }
@@ -305,7 +305,7 @@ nav>ul li:hover .sous {
     float:right;
     margin:0 0% 0% 1%;
     border-style: solid;
-    border-color:white;
+    border-color:#ffffff;
 }
 /*Classe interet.html*/
 #dev{
@@ -319,6 +319,51 @@ nav>ul li:hover .sous {
 #jeux{
 
 }
+
+/*Classe projet.html */
+
+/*Classe pied-de page*/
+.footer-basic {
+    padding:25px 0;
+    background-color:rgb(65, 67, 90);
+    color:#ffffff;
+    clear:both;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:2px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:45px;
+    width:70px;
+    height:70px;
+    line-height:0px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:4px solid #ccc;
+    margin:0 15px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+
+  .footer-basic .social>a>i{
+    margin-top:15%;
+  }
+
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:20px;
+    color:#aaa;
+    margin-bottom:0;
+  }
 /*    font-family: 'Mingzat', sans-serif;
 
     font-family: 'Poiret One', cursive;

@@ -5,5 +5,5 @@
 
 -Faire le contenu de chaque page / le traduire ensuite
 -Corriger l'affichage de la barre de deplacement latéral en bas de la page
--Faire le pied de page (avec contact discord/linked in/mail/telephone ?)
+-Fixer le pied de page en bas de la page
 -Mettre mention legales (code html/css libre mais enlever les images du repo public)
