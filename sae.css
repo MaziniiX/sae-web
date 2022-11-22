@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poiret+One&family=Crimson+Text:ital@1&family=Sulphur+Point&display=swap');
 
 body {
-    margin: 0;
     color:#ffffff;
 }
 
@@ -28,14 +27,12 @@ body {
 }
 
 .menu>h6 { 
-    color: #ffffff;
     font-size:220%;
     font-family: 'Sulphur Point', sans-serif;
     align-self:center;
 }
 
 .menu>p{
-    color: #ffffff; 
     font-size:220%;
     font-family: 'Crimson Text', serif;
     align-self:center;
@@ -144,7 +141,21 @@ nav>ul li:hover .sous {
     height: 100vh;
 }
 
+h1{
+    margin:auto;
+    margin-bottom: 1%;
+    padding: 4px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:#ffffff;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 200%;
+}
 
+.content{
+    background-color: rgb(4, 28, 54);
+    padding: 10px;
+}
 /*Début des classes propres à chaque page*/
 /*Classe scolaire.html*/
 #brevet{
@@ -164,17 +175,6 @@ nav>ul li:hover .sous {
     padding:1%;
 }
 
-#college>h1{
-    margin:auto;
-    margin-bottom: 1%;
-    padding: 4px;
-    border-style: solid;
-    border-width: 5px;
-    border-color:#ffffff;
-    font-family: 'Sulphur Point', sans-serif;
-    font-size: 200%;
-}
-
 #bac{
     width:30%;
     float:left;
@@ -182,26 +182,22 @@ nav>ul li:hover .sous {
     margin:5% 3% 0% 10%;
 }
 
-#college>#content1{
-    background-color: rgb(4, 28, 54);
-    padding: 10px;
-}
-
-#college>#content1>p{
+#college>.content>p{
     font-family: 'Mingzat', sans-serif;
     font-size: larger;
-    width:60%
+    width:60%;
+    text-align:center;
 }
 
-#college>#content1>img:first-of-type{
+#college>.content>img:first-of-type{
     width:33%;
     float:right;
-    margin:0 0% 5% 1%;
+    margin:0 0 5% 1%;
     border-style: solid;
     border-color:#ffffff;
 }
 
-#college>#content1>img:last-of-type{
+#college>.content>img:last-of-type{
     width:40%;
     float:right;
     clear:both;
@@ -222,29 +218,14 @@ nav>ul li:hover .sous {
     padding:1%;
 }
 
-#lycee>h1{
-    margin:auto;
-    margin-bottom: 1%;
-    padding: 4px;
-    border-style: solid;
-    border-width: 5px;
-    border-color:#ffffff;
-    font-family: 'Sulphur Point', sans-serif;
-    font-size: 200%;
-}
-
-#lycee>#content2{
-    background-color: rgb(4, 28, 54);
-    padding: 10px;
-}
-
-#lycee>#content2>p{
+#lycee>.content>p{
     font-family: 'Mingzat', sans-serif;
     font-size: larger;
-    width:60%
+    width:60%;
+    text-align:center;
 }
 
-#lycee>#content2>img:first-of-type{
+#lycee>.content>img:first-of-type{
     width:33%;
     float:right;
     clear:both;
@@ -253,21 +234,55 @@ nav>ul li:hover .sous {
     border-color:#ffffff;
 }
 
-#lycee>#content2>img:last-of-type{
-    width:35%;
-    float:left;
-    clear:both;
-    margin-top:-2%;
+#lycee>.content>img:last-of-type{
+    width: 35%;
+    float: left;
+    clear: both;
+    margin-top: -2%;
     margin-right:;
     border-style: solid;
     border-color:#ffffff;
 }
-#lycee>#content2>p:last-of-type{
+#lycee>.content>p:last-of-type{
     float:right;
 }
 #etude{
     float:left;
     clear: right;
+    display:flex;
+    flex-flow: row wrap;
+    width: 45%;
+    margin: 3% 0 3% 3%;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding: 1%;
+}
+
+#etude>.content>p{
+    font-family: 'Mingzat', sans-serif;
+    font-size: larger;
+    width:60%;
+    text-align:center;
+    margin-top: 5%;
+}
+
+#etude>.content>img{
+    width:33%;
+    float:right;
+    margin:0 0% 0% 1%;
+    border-style: solid;
+    border-color:#ffffff;
+}
+/*Classe interet.html*/
+
+#dev>.content>p,#cyber>.content>p,#jeux>.content>p{
+    font-family: 'Mingzat', sans-serif;
+    font-size: larger;
+    text-align:center;
+    width:100%;
+}
+
+#dev{
     display:flex;
     flex-flow: row wrap;
     width:45%;
@@ -277,47 +292,37 @@ nav>ul li:hover .sous {
     padding:1%;
 }
 
-#etude>h1{
-    margin:auto;
-    margin-bottom: 1%;
-    padding: 4px;
-    border-style: solid;
-    border-width: 5px;
-    border-color:#ffffff;
-    font-family: 'Sulphur Point', sans-serif;
-    font-size: 200%;
-}
-
-#etude>div{
-    background-color: rgb(4, 28, 54);
-    padding: 10px;
-}
-
-#etude>div>p{
-    font-family: 'Mingzat', sans-serif;
-    font-size: larger;
-    width:60%;
-    margin-top:5%;
-}
-
-#etude>div>img{
-    width:33%;
-    float:right;
-    margin:0 0% 0% 1%;
-    border-style: solid;
-    border-color:#ffffff;
-}
-/*Classe interet.html*/
-#dev{
-
-}
-
 #cyber{
+    float:right;
+    display:flex;
+    flex-flow: row wrap;
+    width:45%;
+    margin:3% 3% 3% 0;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding:1%;
+}
 
+#cyber>.content>p>a{
+    text-decoration: none;
+    font-family: 'Mingzat', sans-serif;
+    color:#ffffff;
+}
+
+#cyber>.content>p>a:hover{
+    color:rgb(69, 128, 216);
 }
 
 #jeux{
-
+    float:left;
+    clear: right;
+    display:flex;
+    flex-flow: row wrap;
+    width:45%;
+    margin:3% 0 3% 3%;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding:1%;
 }
 
 /*Classe projet.html */
