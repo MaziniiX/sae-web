@@ -28,25 +28,27 @@ body {
     background-color: rgb(65, 67, 90);
     width:100%;
     display:flex;
-    flex-wrap: row nowrap;
+    flex-wrap: row wrap;
 }
 
 .menu>h6 { 
-    font-size:220%;
+    font-size:2vw;
     font-family: 'Sulphur Point', sans-serif;
     align-self:center;
+    text-align:center;
 }
 
 .menu>p{
-    font-size:220%;
+    font-size:2.5vw;
     font-family: 'Crimson Text', serif;
     align-self:center;
     margin-left: auto;
-    margin-right: auto;                         
+    margin-right: auto;
+    text-align:center;                       
 }
 
 .menu>img {
-    width: 4%; 
+    width: 5vw; 
     margin:0.5% 1% 0.5% 0.5%;
 }
 
@@ -71,7 +73,8 @@ body {
 /* Classe pour le menu de navigation */
 
 nav {
-    width: 100%;
+    width: 100vw;
+    height:1vh
     margin: 0 auto;
     background-color: #ffffff;
     position: sticky;
@@ -84,7 +87,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    width: 33.33%;
+    width: 33.33vw;
     text-align: center;
     position: relative;
 }
@@ -102,7 +105,7 @@ nav a {
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
     font-family: 'Sulphur Point', sans-serif;
-    font-size: 150%;
+    font-size: 1.75vw;
 }
 
 nav a:hover {
@@ -141,7 +144,7 @@ nav>ul li:hover .sous {
 
 .deroulant>a::after {
     content: " ▼";
-    font-size: 12px;
+    font-size: 0.80vw;
 }
 
 #conteneur {
