@@ -283,7 +283,6 @@ h1{
     font-size: larger;
     width:60%;
     text-align:center;
-    margin-top: 5%;
 }
 
 #etude>.content>img{
@@ -346,6 +345,40 @@ h1{
 }
 
 /*Class projet.html & project.html */
+#sti2d>.content>p,#parcour>.content>p{
+    font-family: 'Mingzat', sans-serif;
+    font-size: larger;
+    text-align:center;
+    width:100%;
+}
+
+#cablage{
+    width:33%;
+    float:right;
+    clear:both;
+    margin:6% 10% 0% 3%;
+}
+
+#sti2d{
+    display:flex;
+    flex-flow: row wrap;
+    width:45%;
+    margin:3% 0 3% 3%;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding:1%;
+}
+
+#parcour{
+    float:right;
+    display:flex;
+    flex-flow: row wrap;
+    width:45%;
+    margin:3% 3% 3% 0;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding:1%;
+}
 
 /* Class footer */
 .footer-basic {
@@ -389,11 +422,3 @@ h1{
     color:#aaa;
     margin-bottom:0;
   }
-
-/*    
-    font-family: 'Mingzat', sans-serif;
-
-    font-family: 'Poiret One', cursive;
-
-    font-family: 'Sulphur Point', sans-serif;
-*/
