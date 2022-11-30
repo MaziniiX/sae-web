@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link rel="stylesheet" href="../sae.css" type="text/css">
-    <title>Justin CHALÉARD</title>
-    <script src="https://kit.fontawesome.com/86abd11177.js" crossorigin="anonymous"></script>
-  </head>
-  
-  <body>
-    <img id=fond src="../picture/bg/abstract.jpg">
-    <div id="conteneur">
-      <div class="menu">
-        <img class="logo" src="../picture/logo/tete.png" alt="My face" title="Here I am !">
-        <h6>Justin CHALÉARD</h6>
-        <p>"Problem Exist Between Chair And Keyboard"</p>
-        <a href="../fr_/projets.html"><img src="../picture/flag/fr_flag.png" alt="FR" title="Change the display language to French"></a>
-        <a href="#"><img src="../picture/flag/us_flag.png" alt="EN" title="Change the display language to English"></a>
+<head>
+  <link rel="stylesheet" href="../sae.css" type="text/css">
+  <title>Justin CHALÉARD</title>
+  <script src="https://kit.fontawesome.com/86abd11177.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <img id=fond src="../picture/bg/abstract.jpg">
+  <div id="conteneur">
+    <div class="menu">
+      <img class="logo" src="../picture/logo/tete.png" alt="My face" title="Here I am !">
+      <h6>Justin CHALÉARD</h6>
+      <p>"Problem Exist Between Chair And Keyboard"</p>
+      <a href="../fr_/projets.html"><img src="../picture/flag/fr_flag.png" alt="FR"
+          title="Change the display language to French"></a>
+      <a href="#"><img src="../picture/flag/us_flag.png" alt="EN" title="Change the display language to English"></a>
+    </div>
+    <nav>
+      <ul>
+        <li class="deroulant"><a href="../en_/school.html">My Scolarity &ensp;</a>
+          <ul class="sous">
+            <li><a href="../en_/school.html#college">Middle School</a></li>
+            <li><a href="../en_/school.html#lycee">High School</a></li>
+            <li><a href="../en_/school.html#etude">University</a></li>
+          </ul>
+        </li>
+        <li class="deroulant"><a href="../en_/hobbies.html">Hobbies &ensp;</a>
+          <ul class="sous">
+            <li><a href="../en_/hobbies.html#dev">Development</a></li>
+            <li><a href="../en_/hobbies.html#cyber">Cybersecurity</a></li>
+            <li><a href="../en_/hobbies.html#jeux">Video Games</a></li>
+          </ul>
+        </li>
+        <li><a href="../en_/project.html">My Projects</a></li>
+      </ul>
+    </nav>
+    <img id="cablage" src="../picture/project/cablage.png" alt="The wiring diagram"
+      title="The wiring diagram of the home automation circuit">
+    <article id="sti2d">
+      <h1>12TH GRADE PROJECT</h1>
+      <div class="content">
+        <p>In the last year of high school, in order to validate our project of option Information and Digital System,
+          each of us had to find a technical solution in order to make a classroom more modern and ecological. For that
+          we had to dispose different sensors and microcontrollers, a breadboard connected to a Raspberry Pi by GPIO.
+          First we had to choose the different devices to integrate to the home automation circuit of the room according
+          to different functional and ecological criteria, then we had to design a miniature model of the home
+          automation circuit on the breadboard with the miniature devices (LEDs for the bulbs, a miniature motor for the
+          shutters, a fan box for the CMV, . ...and other similiar things), once the circuit is wired, we had to use
+          different Python libraries to create a graphical interface (with tkinter) that can drive the home automation
+          system (pigpio and ads2015) and display the current status of the different devices as well as different
+          information related to the room, such as temperature and humidity as well as the brightness of the room</p>
       </div>
-      <nav>
-        <ul>
-          <li class="deroulant"><a href="../en_/school.html">My Scolarity &ensp;</a>
-            <ul class="sous">
-              <li><a href="../en_/school.html#college">Middle School</a></li>
-              <li><a href="../en_/school.html#lycee">High School</a></li>
-              <li><a href="../en_/school.html#etude">University</a></li>
-            </ul>
-          </li>
-          <li class="deroulant"><a href="../en_/hobbies.html">Hobbies &ensp;</a>
-            <ul class="sous">
-              <li><a href="../en_/hobbies.html#dev">Development</a></li>
-              <li><a href="../en_/hobbies.html#cyber">Cybersecurity</a></li>
-              <li><a href="../en_/hobbies.html#jeux">Video Games</a></li>
-            </ul>
-          </li>
-          <li><a href="../en_/project.html">My Projects</a></li>
-        </ul>
-      </nav>
-      <img id="cablage" src="../picture/project/cablage.png" alt="The wiring diagram" title="The wiring diagram of the home automation circuit">
-      <article id="sti2d">
-        <h1>12TH GRADE PROJECT</h1>
-        <div class="content">
-          <p>In the last year of high school, in order to validate our project of option Information and Digital System, each of us had to find a technical solution in order to make a classroom more modern and ecological. For that we had to dispose different sensors and microcontrollers, a breadboard connected to a Raspberry Pi by GPIO. First we had to choose the different devices to integrate to the home automation circuit of the room according to different functional and ecological criteria, then we had to design a miniature model of the home automation circuit on the breadboard with the miniature devices (LEDs for the bulbs, a miniature motor for the shutters, a fan box for the CMV, . ...and other similiar things), once the circuit is wired, we had to use different Python libraries to create a graphical interface (with tkinter) that can drive the home automation system (pigpio and ads2015) and display the current status of the different devices as well as different information related to the room, such as temperature and humidity as well as the brightness of the room</p>
-        </div>
-      </article>
-      <article id="parcour">
-        <h1>PARCOUR PROFESSIONNEL</h1>
-        <div class="content">
-          <p>At the end of my first year of study in Networks and Telecommunications, I plan to specialize in the Cybersecurity field with a continuation of my studies in initial training, to continue in an engineering school or in a master's degree, such as at INSA in Lyon or Epitech school also in Lyon. At the end of these studies I hope to find a job in a Digital Service Company</p>
-      </article>
+    </article>
+    <article id="parcour">
+      <h1>PARCOUR PROFESSIONNEL</h1>
+      <div class="content">
+        <p>At the end of my first year of study in Networks and Telecommunications, I plan to specialize in the
+          Cybersecurity field with a continuation of my studies in initial training, to continue in an engineering
+          school or in a master's degree, such as at INSA in Lyon or Epitech school also in Lyon. At the end of these
+          studies I hope to find a job in a Digital Service Company</p>
+    </article>
     <div class="footer-basic">
       <footer>
-        <div class="social"><a href="https://github.com/MaziniiX" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://www.linkedin.com/in/justin-chal%C3%A9ard-472b16257/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" title="MaziniiX_#0631"><i class="fa-brands fa-discord"></i></a><a href="mailto:chaleardjustin@gmail.com"><i class="fa-regular fa-envelope" title="E-mail"></i></a></div>
+        <div class="social"><a href="https://github.com/MaziniiX" target="_blank" title="GitHub"><i
+              class="fa-brands fa-github"></i></a><a href="https://www.linkedin.com/in/justin-chal%C3%A9ard-472b16257/"
+            target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"
+            title="MaziniiX_#0631"><i class="fa-brands fa-discord"></i></a><a href="mailto:chaleardjustin@gmail.com"><i
+              class="fa-regular fa-envelope" title="E-mail"></i></a></div>
         <p class="copyright">IT Student - 2022</p>
       </footer>
     </div>

@@ -1,62 +1,82 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link rel="stylesheet" href="../sae.css" type="text/css">
-    <title>Justin CHALÉARD</title>
-    <script src="https://kit.fontawesome.com/86abd11177.js" crossorigin="anonymous"></script>
-  </head>
-  
-  <body>
-    <img id=fond src="../picture/bg/abstract.jpg">
-    <div id="conteneur">
-      <div class="menu">
-        <img class="logo" src="../picture/logo/tete.png" alt="My face" title="Here I am !">
+<head>
+  <link rel="stylesheet" href="../sae.css" type="text/css">
+  <title>Justin CHALÉARD</title>
+  <script src="https://kit.fontawesome.com/86abd11177.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <img id=fond src="../picture/bg/abstract.jpg">
+  <div id="conteneur">
+    <div class="menu">
+      <img class="logo" src="../picture/logo/tete.png" alt="My face" title="Here I am !">
       <h6>Justin CHALÉARD</h6>
       <p>"Problem Exist Between Chair And Keyboard"</p>
-        <a href="../fr_/interet.html"><img src="../picture/flag/fr_flag.png" alt="FR" title="Change the display language to French"></a>
-        <a href="#"><img src="../picture/flag/us_flag.png" alt="EN" title="Change the display language to English"></a>
+      <a href="../fr_/interet.html"><img src="../picture/flag/fr_flag.png" alt="FR"
+          title="Change the display language to French"></a>
+      <a href="#"><img src="../picture/flag/us_flag.png" alt="EN" title="Change the display language to English"></a>
+    </div>
+    <nav>
+      <ul>
+        <li class="deroulant"><a href="../en_/school.html">My Scolarity &ensp;</a>
+          <ul class="sous">
+            <li><a href="../en_/school.html#college">Middle School</a></li>
+            <li><a href="../en_/school.html#lycee">High School</a></li>
+            <li><a href="../en_/school.html#etude">University</a></li>
+          </ul>
+        </li>
+        <li class="deroulant"><a href="../en_/hobbies.html">Hobbies &ensp;</a>
+          <ul class="sous">
+            <li><a href="../en_/hobbies.html#dev">Development</a></li>
+            <li><a href="../en_/hobbies.html#cyber">Cybersecurity</a></li>
+            <li><a href="../en_/hobbies.html#jeux">Video Games</a></li>
+          </ul>
+        </li>
+        <li><a href="../en_/project.html">My Projects</a></li>
+      </ul>
+    </nav>
+    <article id="dev">
+      <h1>DEVELOPMENT</h1>
+      <div class="content">
+        <p>I love to find a way to automate or simplify a complex or repetitive task, that's why I started developing
+          with Python 2 years ago, today I'm learning Java and C# on the tool and application creation side, and
+          HTML/CSS to create media to have some visibility. My main experience was with Python during my last 2 years in
+          high school, where I learned how to use Python so that in my last year of high school I could integrate a
+          program in a Raspberry Pi microcomputer that controlled a home automation circuit in a modern classroom, and
+          displayed in real time different information such as the time of day or the room temperature. I also have
+          experience with HTML/CSS with the creation of this website which is the one you are currently reading</p>
       </div>
-      <nav>
-        <ul>
-          <li class="deroulant"><a href="../en_/school.html">My Scolarity &ensp;</a>
-            <ul class="sous">
-              <li><a href="../en_/school.html#college">Middle School</a></li>
-              <li><a href="../en_/school.html#lycee">High School</a></li>
-              <li><a href="../en_/school.html#etude">University</a></li>
-            </ul>
-          </li>
-          <li class="deroulant"><a href="../en_/hobbies.html">Hobbies &ensp;</a>
-            <ul class="sous">
-              <li><a href="../en_/hobbies.html#dev">Development</a></li>
-              <li><a href="../en_/hobbies.html#cyber">Cybersecurity</a></li>
-              <li><a href="../en_/hobbies.html#jeux">Video Games</a></li>
-            </ul>
-          </li>
-          <li><a href="../en_/project.html">My Projects</a></li>
-        </ul>
-      </nav>
-      <article id="dev">
-        <h1>DEVELOPMENT</h1>
-        <div class="content">
-          <p>I love to find a way to automate or simplify a complex or repetitive task, that's why I started developing with Python 2 years ago, today I'm learning Java and C# on the tool and application creation side, and HTML/CSS to create media to have some visibility. My main experience was with Python during my last 2 years in high school, where I learned how to use Python so that in my last year of high school I could integrate a program in a Raspberry Pi microcomputer that controlled a home automation circuit in a modern classroom, and displayed in real time different information such as the time of day or the room temperature. I also have experience with HTML/CSS with the creation of this website which is the one you are currently reading</p>
-        </div>
-      </article>
-      <article id="cyber">
-        <h1>CYBERSECURITY</h1>
-        <div class="content">
-          <p>I'm always wondering how to protect systems with technologies that are constantly evolving, that's why I'm interested in cybersecurity, I like to document myself on the different ways and methods to use to set up complex protections while trying to keep a certain ergonomics in the process depending on the type of content that must be protected. Currently I'm reading on different social networks like Youtube and TikTok, as well as on dedicated forums, I also started training exercises on <a href="https://tryhackme.com" target="_blank">trychackme.com</a></p>
-        </div>
-        </article>
-      <article id="jeux">
-        <h1>VIDEO GAMES</h1>
-        <div class="content">
-          <p>It would be a lie if I said I don't like playing video games, video games are a way to have fun while meeting people, over time I diversified my video game tastes, I like to play FPS games like recently Overwatch 2 or Call of Duty Modern Warfare 2, but I also like to play games that require reflection like the Zelda saga or Portal. Whether they are cooperative or not, adventure or strategy games, playable on computer, console or phone, video games are for me a huge playground and a real stress relief</p>
-        </div>
-      </article>
+    </article>
+    <article id="cyber">
+      <h1>CYBERSECURITY</h1>
+      <div class="content">
+        <p>I'm always wondering how to protect systems with technologies that are constantly evolving, that's why I'm
+          interested in cybersecurity, I like to document myself on the different ways and methods to use to set up
+          complex protections while trying to keep a certain ergonomics in the process depending on the type of content
+          that must be protected. Currently I'm reading on different social networks like Youtube and TikTok, as well as
+          on dedicated forums, I also started training exercises on <a href="https://tryhackme.com"
+            target="_blank">trychackme.com</a></p>
+      </div>
+    </article>
+    <article id="jeux">
+      <h1>VIDEO GAMES</h1>
+      <div class="content">
+        <p>It would be a lie if I said I don't like playing video games, video games are a way to have fun while meeting
+          people, over time I diversified my video game tastes, I like to play FPS games like recently Overwatch 2 or
+          Call of Duty Modern Warfare 2, but I also like to play games that require reflection like the Zelda saga or
+          Portal. Whether they are cooperative or not, adventure or strategy games, playable on computer, console or
+          phone, video games are for me a huge playground and a real stress relief</p>
+      </div>
+    </article>
     <div class="footer-basic">
       <footer>
-        <div class="social"><a href="https://github.com/MaziniiX" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://www.linkedin.com/in/justin-chal%C3%A9ard-472b16257/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" title="MaziniiX_#0631"><i class="fa-brands fa-discord"></i></a><a href="mailto:chaleardjustin@gmail.com"><i class="fa-regular fa-envelope" title="E-mail"></i></a></div>
+        <div class="social"><a href="https://github.com/MaziniiX" target="_blank" title="GitHub"><i
+              class="fa-brands fa-github"></i></a><a href="https://www.linkedin.com/in/justin-chal%C3%A9ard-472b16257/"
+            target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"
+            title="MaziniiX_#0631"><i class="fa-brands fa-discord"></i></a><a href="mailto:chaleardjustin@gmail.com"><i
+              class="fa-regular fa-envelope" title="E-mail"></i></a></div>
         <p class="copyright">IT Student - 2022</p>
       </footer>
     </div>

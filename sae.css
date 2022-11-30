@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poiret+One&family=Crimson+Text:ital@1&family=Sulphur+Point&display=swap');
 
 body {
-    color:#ffffff;
+    color: #ffffff;
 }
 
 * {
@@ -24,46 +24,46 @@ body {
 /* Class for the presentation menu */
 /* Classe du menu de présentation */
 
-.menu {                                         
+.menu {
     background-color: rgb(65, 67, 90);
-    width:100%;
-    display:flex;
+    width: 100%;
+    display: flex;
     flex-wrap: row wrap;
 }
 
-.menu>h6 { 
-    font-size:2vw;
+.menu>h6 {
+    font-size: 2vw;
     font-family: 'Sulphur Point', sans-serif;
-    align-self:center;
-    text-align:center;
+    align-self: center;
+    text-align: center;
 }
 
-.menu>p{
-    font-size:2.5vw;
+.menu>p {
+    font-size: 2.5vw;
     font-family: 'Crimson Text', serif;
-    align-self:center;
+    align-self: center;
     margin-left: auto;
     margin-right: auto;
-    text-align:center;                       
+    text-align: center;
 }
 
 .menu>img {
-    width: 5vw; 
-    margin:0.5% 1% 0.5% 0.5%;
+    width: 5vw;
+    margin: 0.5% 1% 0.5% 0.5%;
 }
 
-.menu>a{
-    align-self:center;
-    width:3%;
-    margin-right: 1%; 
+.menu>a {
+    align-self: center;
+    width: 3%;
+    margin-right: 1%;
 }
 
-.menu>a img{
+.menu>a img {
     border-radius: 8px;
-    width:100%
+    width: 100%
 }
 
-.menu>a>img:hover{
+.menu>a>img:hover {
     border-style: solid;
     border-width: 4px;
     border-color: #ffffff;
@@ -155,18 +155,18 @@ nav>ul li:hover .sous {
 /* Definition of recurrent element in the content of the pages */
 /* Définition des éléments récurrents des pages */
 
-h1{
-    margin:auto;
+h1 {
+    margin: auto;
     margin-bottom: 1%;
     padding: 4px;
     border-style: solid;
     border-width: 5px;
-    border-color:#ffffff;
+    border-color: #ffffff;
     font-family: 'Sulphur Point', sans-serif;
     font-size: 200%;
 }
 
-.content{
+.content {
     background-color: rgb(4, 28, 54);
     padding: 10px;
 }
@@ -176,97 +176,15 @@ h1{
 /*Start of the classes specific to each page*/
 
 /*Class scolaire.html & school.html*/
-#brevet{
-    width:30%;
-    float:right;
-    clear:both;
-    margin:6% 10% 0% 3%;
-}
-
-#college{
-    display:flex;
-    flex-flow: row wrap;
-    width:45%;
-    margin:3% 0 3% 3%;
-    background-color: rgb(4, 38, 75);
-    border-radius: 3%;
-    padding:1%;
-}
-
-#bac{
-    width:30%;
-    float:left;
-    clear:both;
-    margin:10% 3% 0% 10%;
-}
-
-#college>.content>p{
-    font-family: 'Mingzat', sans-serif;
-    font-size: larger;
-    width:60%;
-    text-align:center;
-}
-
-#college>.content>img:first-of-type{
-    width:33%;
-    height:max-content;
-    float:right;
-    margin:0 0 5% 1%;
-    border-style: solid;
-    border-color:#ffffff;
-}
-
-#college>.content>img:last-of-type{
-    width:40%;
-    float:right;
-    clear:both;
-    margin-top:-3%;
-    border-style: solid;
-    border-color:#ffffff;
-}
-
-#lycee{
-    float:right;
-    display:flex;
-    flex-flow: row wrap;
-    width:45%;
-    margin:3% 3% 3% 0;
-    background-color: rgb(4, 38, 75);
-    border-radius: 3%;
-    padding:1%;
-}
-
-#lycee>.content>p{
-    font-family: 'Mingzat', sans-serif;
-    font-size: larger;
-    width:60%;
-    text-align:center;
-}
-
-#lycee>.content>img:first-of-type{
-    width:33%;
-    float:right;
-    clear:both;
-    margin:0 0% 5% 1%;
-    border-style: solid;
-    border-color:#ffffff;
-}
-
-#lycee>.content>img:last-of-type{
-    width: 35%;
-    float: left;
+#brevet {
+    width: 30%;
+    float: right;
     clear: both;
-    margin-top: -0.5%;
-    border-style: solid;
-    border-color:#ffffff;
+    margin: 6% 10% 0% 3%;
 }
-#lycee>.content>p:last-of-type{
-    float:right;
-}
-#etude{
-    float:left;
-    clear: right;
-    display:flex;
+
+#college {
+    display: flex;
     flex-flow: row wrap;
     width: 45%;
     margin: 3% 0 3% 3%;
@@ -275,147 +193,235 @@ h1{
     padding: 1%;
 }
 
-#etude>.content>p{
-    font-family: 'Mingzat', sans-serif;
-    font-size: larger;
-    width:60%;
-    text-align:center;
+#bac {
+    width: 30%;
+    float: left;
+    clear: both;
+    margin: 10% 3% 0% 10%;
 }
 
-#etude>.content>img{
-    width:33%;
-    float:right;
-    margin:0 0% 0% 1%;
-    border-style: solid;
-    border-color:#ffffff;
+#college>.content>p {
+    font-family: 'Mingzat', sans-serif;
+    font-size: larger;
+    width: 60%;
+    text-align: center;
 }
+
+#college>.content>img:first-of-type {
+    width: 33%;
+    height: max-content;
+    float: right;
+    margin: 0 0 5% 1%;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+#college>.content>img:last-of-type {
+    width: 40%;
+    float: right;
+    clear: both;
+    margin-top: -3%;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+#lycee {
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+    margin: 3% 3% 3% 0;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding: 1%;
+}
+
+#lycee>.content>p {
+    font-family: 'Mingzat', sans-serif;
+    font-size: larger;
+    width: 60%;
+    text-align: center;
+}
+
+#lycee>.content>img:first-of-type {
+    width: 33%;
+    float: right;
+    clear: both;
+    margin: 0 0% 5% 1%;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+#lycee>.content>img:last-of-type {
+    width: 35%;
+    float: left;
+    clear: both;
+    margin-top: -0.5%;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+#lycee>.content>p:last-of-type {
+    float: right;
+}
+
+#etude {
+    float: left;
+    clear: right;
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+    margin: 3% 0 3% 3%;
+    background-color: rgb(4, 38, 75);
+    border-radius: 3%;
+    padding: 1%;
+}
+
+#etude>.content>p {
+    font-family: 'Mingzat', sans-serif;
+    font-size: larger;
+    width: 60%;
+    text-align: center;
+}
+
+#etude>.content>img {
+    width: 33%;
+    float: right;
+    margin: 0 0% 0% 1%;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
 /*Class interet.html & hobbies.html*/
 
-#dev>.content>p,#cyber>.content>p,#jeux>.content>p{
+#dev>.content>p,
+#cyber>.content>p,
+#jeux>.content>p {
     font-family: 'Mingzat', sans-serif;
     font-size: larger;
-    text-align:center;
-    width:100%;
+    text-align: center;
+    width: 100%;
 }
 
-#dev{
-    display:flex;
+#dev {
+    display: flex;
     flex-flow: row wrap;
-    width:45%;
-    margin:3% 0 3% 3%;
+    width: 45%;
+    margin: 3% 0 3% 3%;
     background-color: rgb(4, 38, 75);
     border-radius: 3%;
-    padding:1%;
+    padding: 1%;
 }
 
-#cyber{
-    float:right;
-    display:flex;
+#cyber {
+    float: right;
+    display: flex;
     flex-flow: row wrap;
-    width:45%;
-    margin:3% 3% 3% 0;
+    width: 45%;
+    margin: 3% 3% 3% 0;
     background-color: rgb(4, 38, 75);
     border-radius: 3%;
-    padding:1%;
+    padding: 1%;
 }
 
-#cyber>.content>p>a{
+#cyber>.content>p>a {
     text-decoration: none;
     font-family: 'Mingzat', sans-serif;
-    color:#ffffff;
+    color: #ffffff;
 }
 
-#cyber>.content>p>a:hover{
-    color:rgb(69, 128, 216);
+#cyber>.content>p>a:hover {
+    color: rgb(69, 128, 216);
 }
 
-#jeux{
-    float:left;
+#jeux {
+    float: left;
     clear: right;
-    display:flex;
+    display: flex;
     flex-flow: row wrap;
-    width:45%;
-    margin:3% 0 3% 3%;
+    width: 45%;
+    margin: 3% 0 3% 3%;
     background-color: rgb(4, 38, 75);
     border-radius: 3%;
-    padding:1%;
+    padding: 1%;
 }
 
 /*Class projet.html & project.html */
-#sti2d>.content>p,#parcour>.content>p{
+#sti2d>.content>p,
+#parcour>.content>p {
     font-family: 'Mingzat', sans-serif;
     font-size: larger;
-    text-align:center;
-    width:100%;
+    text-align: center;
+    width: 100%;
 }
 
-#cablage{
-    width:33%;
-    float:right;
-    clear:both;
-    margin:6% 10% 0% 3%;
+#cablage {
+    width: 33%;
+    float: right;
+    clear: both;
+    margin: 6% 10% 0% 3%;
 }
 
-#sti2d{
-    display:flex;
+#sti2d {
+    display: flex;
     flex-flow: row wrap;
-    width:45%;
-    margin:3% 0 3% 3%;
+    width: 45%;
+    margin: 3% 0 3% 3%;
     background-color: rgb(4, 38, 75);
     border-radius: 3%;
-    padding:1%;
+    padding: 1%;
 }
 
-#parcour{
-    float:right;
-    display:flex;
+#parcour {
+    float: right;
+    display: flex;
     flex-flow: row wrap;
-    width:45%;
-    margin:3% 3% 3% 0;
+    width: 45%;
+    margin: 3% 3% 3% 0;
     background-color: rgb(4, 38, 75);
     border-radius: 3%;
-    padding:1%;
+    padding: 1%;
 }
 
 /* Class footer */
 .footer-basic {
-    padding:25px 0;
-    background-color:rgb(65, 67, 90);
-    color:#ffffff;
-    clear:both;
-  }
-  
-  .footer-basic .social {
-    text-align:center;
-    padding-bottom:2px;
-  }
-  
-  .footer-basic .social > a {
-    font-size:38px;
-    width:60px;
-    height:60px;
-    line-height:0px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    border:4px solid #ccc;
-    margin:0 15px;
-    color:inherit;
-    opacity:0.75;
-  }
-  
-  .footer-basic .social > a:hover {
-    opacity:0.9;
-  }
+    padding: 25px 0;
+    background-color: rgb(65, 67, 90);
+    color: #ffffff;
+    clear: both;
+}
 
-  .footer-basic .social>a>i{
-    margin-top:15%;
-  }
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 2px;
+}
 
-  .footer-basic .copyright {
-    margin-top:15px;
-    text-align:center;
-    font-size:16px;
-    color:#aaa;
-    margin-bottom:0;
-  }
+.footer-basic .social>a {
+    font-size: 38px;
+    width: 60px;
+    height: 60px;
+    line-height: 0px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    margin: 0 15px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .social>a>i {
+    margin-top: 15%;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 0;
+}

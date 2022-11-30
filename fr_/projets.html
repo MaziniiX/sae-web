@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link rel="stylesheet" href="../sae.css" type="text/css">
-    <title>Justin CHALÉARD</title>
-    <script src="https://kit.fontawesome.com/86abd11177.js" crossorigin="anonymous"></script>
-  </head>
-  
-  <body>
-    <img id=fond src="../picture/bg/abstract.jpg">
-    <div id="conteneur">
-      <div class="menu">
-        <img src="../picture/logo/tete.png" alt="Mon visage" title="Me voilà !">
-        <h6>Justin CHALÉARD</h6>
-        <p>"Problem Exist Between Chair And Keyboard"</p>
-        <a href="#"><img src="../picture/flag/fr_flag.png" alt="FR" title="Changer la langue d'affichage en français"></a>
-        <a href="../en_/project.html"><img src="../picture/flag/us_flag.png" alt="EN" title="Changer la langue d'affichage en anglais"></a>
+<head>
+  <link rel="stylesheet" href="../sae.css" type="text/css">
+  <title>Justin CHALÉARD</title>
+  <script src="https://kit.fontawesome.com/86abd11177.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <img id=fond src="../picture/bg/abstract.jpg">
+  <div id="conteneur">
+    <div class="menu">
+      <img src="../picture/logo/tete.png" alt="Mon visage" title="Me voilà !">
+      <h6>Justin CHALÉARD</h6>
+      <p>"Problem Exist Between Chair And Keyboard"</p>
+      <a href="#"><img src="../picture/flag/fr_flag.png" alt="FR" title="Changer la langue d'affichage en français"></a>
+      <a href="../en_/project.html"><img src="../picture/flag/us_flag.png" alt="EN"
+          title="Changer la langue d'affichage en anglais"></a>
+    </div>
+    <nav>
+      <ul>
+        <li class="deroulant"><a href="../fr_/scolaire.html">Ma scolarité &ensp;</a>
+          <ul class="sous">
+            <li><a href="../fr_/scolaire.html#college">Collège</a></li>
+            <li><a href="../fr_/scolaire.html#lycee">Lycée</a></li>
+            <li><a href="../fr_/scolaire.html#etude">Étude Supérieure</a></li>
+          </ul>
+        </li>
+        <li class="deroulant"><a href="../fr_/interet.html">Centres d'Intérêt &ensp;</a>
+          <ul class="sous">
+            <li><a href="../fr_/interet.html#dev">Développement</a></li>
+            <li><a href="../fr_/interet.html#cyber">Cybersécurité</a></li>
+            <li><a href="../fr_/interet.html#jeux">Jeux-Vidéo</a></li>
+          </ul>
+        </li>
+        <li class="deroulant"><a href="../fr_/projets.html">Mes Projets &ensp;</a>
+          <ul class="sous">
+            <li><a href="../fr_/projets.html#sti2d">STI2D</a></li>
+            <li><a href="../fr_/projets.html#parcour">Parcour professionnel</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <img id="cablage" src="../picture/project/cablage.png" alt="Le schéma de cablâge"
+      title="Le schéma de cablâge du circuit domotique">
+    <article id="sti2d">
+      <h1>PROJET TERMINALE STI2D</h1>
+      <div class="content">
+        <p>En terminale, afin de valider notre projet d'option Système d'Information et Numérique, chacun d'entre nous
+          devait trouver une solution technique afin de pouvoir rendre une salle de classe plus moderne et écologique.
+          Pour cela, nous avions a disposions différents capteurs et microcontrôleurs, une platine d'essai (breadboard)
+          relié à un Raspberry Pi par GPIO. Il a d'abord fallu choisir les différents appareils a intégré au circuit
+          domotique de la salle en fonction de différents critères fonctionnels et écologique, il a ensuite fallu
+          concevoir une maquette miniature du circuit domotique sur les breadboard avec les appareils miniature (des LED
+          pour les ampoules, un moteur miniature pour les volets, un ventilateur de boîtier pour la VMC, ...etc), une
+          fois le circuit câblé, nous devions utilisez différentes librairies Python pour créer une interface graphique
+          (avec tkinter) qui puisse piloter le système domotique (pigpio et ads2015) et afficher l'état actuel des
+          différents appareils ainsi que différentes informations liées a la salle, comme la température et l'humidité
+          ambiante ainsi que la luminosité de la salle</p>
       </div>
-      <nav>
-        <ul>
-          <li class="deroulant"><a href="../fr_/scolaire.html">Ma scolarité &ensp;</a>
-            <ul class="sous">
-              <li><a href="../fr_/scolaire.html#college">Collège</a></li>
-              <li><a href="../fr_/scolaire.html#lycee">Lycée</a></li>
-              <li><a href="../fr_/scolaire.html#etude">Étude Supérieure</a></li>
-            </ul>
-          </li>
-          <li class="deroulant"><a href="../fr_/interet.html">Centres d'Intérêt &ensp;</a>
-            <ul class="sous">
-              <li><a href="../fr_/interet.html#dev">Développement</a></li>
-              <li><a href="../fr_/interet.html#cyber">Cybersécurité</a></li>
-              <li><a href="../fr_/interet.html#jeux">Jeux-Vidéo</a></li>
-            </ul>
-          </li>
-          <li class="deroulant"><a href="../fr_/projets.html">Mes Projets &ensp;</a>
-            <ul class="sous">
-              <li><a href="../fr_/projets.html#sti2d">STI2D</a></li>
-              <li><a href="../fr_/projets.html#parcour">Parcour professionnel</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <img id="cablage" src="../picture/project/cablage.png" alt="Le schéma de cablâge" title="Le schéma de cablâge du circuit domotique">
-      <article id="sti2d">
-        <h1>PROJET TERMINALE STI2D</h1>
-        <div class="content">
-          <p>En terminale, afin de valider notre projet d'option Système d'Information et Numérique, chacun d'entre nous devait trouver une solution technique afin de pouvoir rendre une salle de classe plus moderne et écologique. Pour cela, nous avions a disposions différents capteurs et microcontrôleurs, une platine d'essai (breadboard) relié à un Raspberry Pi par GPIO. Il a d'abord fallu choisir les différents appareils a intégré au circuit domotique de la salle en fonction de différents critères fonctionnels et écologique, il a ensuite fallu concevoir une maquette miniature du circuit domotique sur les breadboard avec les appareils miniature (des LED pour les ampoules, un moteur miniature pour les volets, un ventilateur de boîtier pour la VMC, ...etc), une fois le circuit câblé, nous devions utilisez différentes librairies Python pour créer une interface graphique (avec tkinter) qui puisse piloter le système domotique (pigpio et ads2015) et afficher l'état actuel des différents appareils ainsi que différentes informations liées a la salle, comme la température et l'humidité ambiante ainsi que la luminosité de la salle</p>
-        </div>
-      </article>
-      <article id="parcour">
-        <h1>PARCOUR PROFESSIONNEL</h1>
-        <div class="content">
-          <p>À la fin de ma 1ère année d’étude en Réseaux et Télécommunications, j’envisage de me spécialiser dans la filière Cybersécurité avec une poursuite d’études en formation initiale, pour continuer dans une école d’ingénieur ou dans un master, comme à L'INSA à Lyon ou l'école Epitech également à Lyon. À la fin de ces études, je compte trouver un emploi dans une Entreprise de Service Numérique</p>
-        </div>
-      </article>
+    </article>
+    <article id="parcour">
+      <h1>PARCOUR PROFESSIONNEL</h1>
+      <div class="content">
+        <p>À la fin de ma 1ère année d’étude en Réseaux et Télécommunications, j’envisage de me spécialiser dans la
+          filière Cybersécurité avec une poursuite d’études en formation initiale, pour continuer dans une école
+          d’ingénieur ou dans un master, comme à L'INSA à Lyon ou l'école Epitech également à Lyon. À la fin de ces
+          études, je compte trouver un emploi dans une Entreprise de Service Numérique</p>
+      </div>
+    </article>
     <div class="footer-basic">
       <footer>
-        <div class="social"><a href="https://github.com/MaziniiX" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://www.linkedin.com/in/justin-chal%C3%A9ard-472b16257/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" title="MaziniiX_#0631"><i class="fa-brands fa-discord"></i></a><a href="mailto:chaleardjustin@gmail.com"><i class="fa-regular fa-envelope" title="E-mail"></i></a></div>
+        <div class="social"><a href="https://github.com/MaziniiX" target="_blank" title="GitHub"><i
+              class="fa-brands fa-github"></i></a><a href="https://www.linkedin.com/in/justin-chal%C3%A9ard-472b16257/"
+            target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"
+            title="MaziniiX_#0631"><i class="fa-brands fa-discord"></i></a><a href="mailto:chaleardjustin@gmail.com"><i
+              class="fa-regular fa-envelope" title="E-mail"></i></a></div>
         <p class="copyright">IT Student - 2022</p>
       </footer>
     </div>
